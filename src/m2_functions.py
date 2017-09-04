@@ -22,7 +22,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 
 import rosegraphics as rg
 
-
+import random
 
 def main():
     """
@@ -110,9 +110,9 @@ def turtle4():
     jess.pen = rg.Pen('tomato',5)
     jess.forward(900)
     jess.left(45)
-    jess.forward(900)
+    jess.forward(100)
     jess.right(45)
-    jess.forward(900)
+    jess.forward(100)
 
 def turtle5():
     stroz = rg.SimpleTurtle()
